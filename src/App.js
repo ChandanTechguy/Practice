@@ -1,7 +1,8 @@
  import React from 'react'
  //import UseStateArray from './Components/UseStateArray'
  //import UseStateObjects from './Components/UseStateObjects'
- import Basicform from './Components/Form/Basicform'
+ //import Basicform from './Components/Form/Basicform'
+ import UseEffect from './Components/useEffect/UseEffect'
  const App = () => {
   // let myFirstVal = useState('dass')[0]
   // console.log(myFirstVal)
@@ -23,7 +24,8 @@
       <button className='btn' onClick={changeName}>Click Me</button> */}
       {/* <UseStateArray/> */}
       {/* <UseStateObjects/> */}
-      <Basicform/>
+      {/* <Basicform/> */}
+      <UseEffect/>
      </div>
    )
  }
