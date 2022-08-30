@@ -2,7 +2,10 @@
  //import UseStateArray from './Components/UseStateArray'
  //import UseStateObjects from './Components/UseStateObjects'
  //import Basicform from './Components/Form/Basicform'
- import UseEffect from './Components/useEffect/UseEffect'
+// import UseEffect from './Components/useEffect/UseEffect'
+// import UseReducer from './Components/UseReducer'
+import Todo from './Components/Todo'
+
  const App = () => {
   // let myFirstVal = useState('dass')[0]
   // console.log(myFirstVal)
@@ -25,7 +28,9 @@
       {/* <UseStateArray/> */}
       {/* <UseStateObjects/> */}
       {/* <Basicform/> */}
-      <UseEffect/>
+      {/* <UseEffect/> */}
+      {/* <UseReducer/> */}
+      <Todo/>
      </div>
    )
  }
